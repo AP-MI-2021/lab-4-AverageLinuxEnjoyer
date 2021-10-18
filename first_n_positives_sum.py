@@ -55,3 +55,4 @@ def test_first_n_positive_sum():
     assert first_n_positive_sum([-4,-3,21] , 2) == "Dimensiunea listei este prea mică"
 
 test_first_n_positive_sum()
+
