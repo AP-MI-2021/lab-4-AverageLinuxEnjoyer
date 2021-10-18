@@ -16,14 +16,13 @@ def main():
 
         if option == "1":
             lst = readList()
-            print(lst)
         elif option == "2":
             no_duplicates = remove_duplicates(lst)
             print(f"Lista {lst} fara duplicate este {no_duplicates}")
         elif option == "3":
             n = int(input("Cat sa fie n?"))
             sum = first_n_positive_sum(lst, n)
-            print(f"Suma primelor {n} numere pozitive din lista e {sum}.")
+            print(sum)
         elif option == "4":
             if are_positives_sorted(lst):
                 print("DA")
@@ -35,6 +34,7 @@ def main():
             break
         else:
             print("Aceasta optiune nu exista. Incearca din nou.")
+
 
 if __name__ == "__main__":
     main()
